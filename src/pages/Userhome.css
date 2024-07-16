@@ -1,0 +1,41 @@
+.homepage {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+  }
+  
+.addCardButton{
+display: flex;
+justify-content: center;
+}
+
+.closeFormBtn{
+ display: flex;
+justify-content: center;
+}
+
+.closeBtn {
+  background-color: #ff5a5f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  background-color: #e53e3e;
+}
+
+.right-content{
+  padding :20px;
+}
+
+.popups{
+  display: flex;
+  justify-content: center;
+}
+
+.popup{
+  margin: 10px;
+}

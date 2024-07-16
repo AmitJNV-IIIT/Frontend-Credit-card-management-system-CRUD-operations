@@ -1,0 +1,69 @@
+[
+    {
+      "transaction_Id": 1,
+      "card_Id": 123456789,
+      "merchant_Id": 1001,
+      "transaction_Date_Time": "2024-03-09T08:30:00Z",
+      "amount": 50.00,
+      "transaction_Type": "Purchase",
+      "notes": "Grocery shopping",
+      "product_Category": "Food",
+      "is_Fraudulent": false
+    },
+    {
+      "transaction_Id": 2,
+      "card_Id": 987654321,
+      "merchant_Id": 1002,
+      "transaction_Date_Time": "2024-03-09T12:45:00Z",
+      "amount": 25.99,
+      "transaction_Type": "Purchase",
+      "notes": "Clothing purchase",
+      "product_Category": "Apparel",
+      "is_Fraudulent": false
+    },
+    {
+      "transaction_Id": 3,
+      "card_Id": 456789123,
+      "merchant_Id": 1003,
+      "transaction_Date_Time": "2024-03-09T18:20:00Z",
+      "amount": 100.50,
+      "transaction_Type": "Purchase",
+      "notes": "Electronics purchase",
+      "product_Category": "Electronics",
+      "is_Fraudulent": true
+    },
+    {
+      "transaction_Id": 4,
+      "card_Id": 123456789,
+      "merchant_Id": 1004,
+      "transaction_Date_Time": "2024-03-10T10:00:00Z",
+      "amount": 75.25,
+      "transaction_Type": "Purchase",
+      "notes": "Books purchase",
+      "product_Category": "Books",
+      "is_Fraudulent": false
+    },
+    {
+      "transaction_Id": 5,
+      "card_Id": 987654321,
+      "merchant_Id": 1005,
+      "transaction_Date_Time": "2024-03-10T15:30:00Z",
+      "amount": 200.00,
+      "transaction_Type": "Purchase",
+      "notes": "Furniture purchase",
+      "product_Category": "Furniture",
+      "is_Fraudulent": false
+    },
+    {
+      "transaction_Id": 6,
+      "card_Id": 456789123,
+      "merchant_Id": 1006,
+      "transaction_Date_Time": "2024-03-11T09:45:00Z",
+      "amount": 120.75,
+      "transaction_Type": "Purchase",
+      "notes": "Home appliances purchase",
+      "product_Category": "Appliances",
+      "is_Fraudulent": false
+    }
+  ]
+  

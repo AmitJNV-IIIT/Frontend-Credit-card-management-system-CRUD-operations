@@ -1,0 +1,20 @@
+/* Tagline.css */
+
+.tagline {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    margin: 50px;
+    color: aliceblue;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .green-text {
+    color: #7ff097; /* Green color code */
+  }
+  

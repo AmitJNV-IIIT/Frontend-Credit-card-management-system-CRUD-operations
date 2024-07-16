@@ -1,0 +1,53 @@
+.user-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(1, 1, 12, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 30px;
+  width: 300px;
+  color: rgb(255, 255, 255);
+}
+
+  
+  .user-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-image: url('../../../public/assets/profile_picture.jpg');
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .lineBreak{
+    height: 2px;
+    background-color: #ffffff;
+  }
+  
+  .edit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0, 123, 255, 0.5); 
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .username{
+    display: flex;
+    justify-content: center;
+  }

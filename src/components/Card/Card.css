@@ -1,0 +1,80 @@
+.ccwhole{
+    display: flex;
+    align-items: center;
+}
+
+
+.cardbgfront{
+    width: 415px;
+    height: 220px;
+    background-image: url('../../../public/assets/ccbg.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(215, 239, 207);
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(32, 218, 100, 0.5);
+}
+
+.cardbgback{
+    width: 415px;
+    height: 220px;
+    background-image: url('../../../public/assets/ccbgback.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(32, 218, 100, 0.5);
+}
+
+.cvv{
+    margin-top: 80px;
+}
+
+.bankname{
+    margin-bottom: 95px;
+    font-size: 30px;
+}
+
+.cardno{
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: left;
+    letter-spacing: 0.3rem;
+}
+
+.dates{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    letter-spacing: 0.1rem;
+    font-size: small;
+}
+
+.issuedate,.expirydate{
+    text-align: end;
+    margin-right: 20px;
+}
+
+.holdername{
+    margin-bottom: 20px;
+    text-align: left;
+    letter-spacing: 0.2rem;
+}
+
+.flip-btn{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    background-image: url('../../../public/assets/flip-card.png');
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,27 @@
+.table-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  .table-container th {
+    text-align: left;
+  }
+  
+  .amount-column {
+    text-align: right;
+  }
+  

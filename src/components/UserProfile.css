@@ -1,0 +1,11 @@
+.profilepage {
+    display: flex;
+  }
+
+.right-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+  
